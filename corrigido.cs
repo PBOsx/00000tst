@@ -31,12 +31,9 @@ namespace pp
                             ord[i] = ord[e];
                             ord[e] = aux;
                             }
-                            
                         }
-                        
                     }
-                }
-            }
+            
             Console.WriteLine("oioi");
             Console.WriteLine(ord[0]);
             Console.WriteLine(ord[1]);
