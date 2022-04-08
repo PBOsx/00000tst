@@ -20,10 +20,7 @@ namespace pp
             ord[2] = int.Parse(Console.ReadLine());
             ord[3] = int.Parse(Console.ReadLine());
             ord[4] = int.Parse(Console.ReadLine());
-
-            //for (e = 0; e < 5; e++)
-            {//do
-                {
+            
                     for (i = 0; i < 5; i++)
                     {
                         for (e = 0; e < 5; e++)
@@ -33,18 +30,13 @@ namespace pp
                             aux = ord[i];
                             ord[i] = ord[e];
                             ord[e] = aux;
-                            }/*else
-                        {
-                            aux = ord[e];
-                            ord[e] = ord[i];
-                            ord[i] = aux;
-                        }*/
+                            }
                             
                         }
                         
                     }
                 }
-            }//while (ord[0] != 1);
+            }
             Console.WriteLine("oioi");
             Console.WriteLine(ord[0]);
             Console.WriteLine(ord[1]);
